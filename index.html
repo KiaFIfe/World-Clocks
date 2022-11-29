@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.39/moment-timezone-with-data-10-year-range.min.js"></script>
-
+    <link rel="stylesheet" href="src/styles.css" />
     <title>World Clocks</title>
   </head>
   <body>
     <div class="container">
       <h1 class="headding">World Clock</h1>
-
+      <p class="emoji">🕰️</p>
       <div class="box">
-        <select name="drop-box" id="dropBox">
+        <select class="drop-box" name="drop-box" id="dropBox">
           <option value="sydney" id="sydney">Sydney</option>
           <option value="paris" id="paris">Paris</option>
           <option value="tokyo" id="tokyo">Tokyo</option>
@@ -22,34 +22,55 @@
       </div>
 
       <div class="city-box">
-        <div class="name">Los angeles</div>
-        <div class="month">August 15th 2022</div>
-        <div class="time">1:48:15</div>
-        <div class="am-pm">AM</div>
+        <div class="left">
+          <h2 class="name">Los angeles</h2>
+          <div class="month">August 15th 2022</div>
+        </div>
+        <div class="time">
+          1:48:15
+          <small class="am-pm">AM</small>
+        </div>
       </div>
+      <hr />
       <div class="city-box">
-        <div class="name">Sydney</div>
-        <div class="month">August 15th 2022</div>
-        <div class="time">1:48:15</div>
-        <div class="am-pm">AM</div>
+        <div class="left">
+          <h2 class="name">Sydney</h2>
+          <div class="month">August 15th 2022</div>
+        </div>
+        <div class="time">
+          1:48:15
+          <small class="am-pm">AM</small>
+        </div>
       </div>
+      <hr />
       <div class="city-box">
-        <div class="name">Tokyo</div>
-        <div class="month">August 15th 2022</div>
-        <div class="time">1:48:15</div>
-        <div class="am-pm">AM</div>
+        <div class="left">
+          <h2 class="name">Tokyo</h2>
+          <div class="month">August 15th 2022</div>
+        </div>
+        <div class="time">
+          1:48:15
+          <small class="am-pm">AM</small>
+        </div>
       </div>
+      <hr />
       <div class="city-box">
-        <div class="name">Paris</div>
-        <div class="month">August 15th 2022</div>
-        <div class="time">1:48:15</div>
-        <div class="am-pm">AM</div>
+        <div class="left">
+          <h2 class="name">Paris</h2>
+          <div class="month">August 15th 2022</div>
+        </div>
+        <div class="time">
+          1:48:15
+          <small class="am-pm">AM</small>
+        </div>
       </div>
     </div>
 
     <footer>
       This project was make by Likia Fife and is open sourced on
-      <a href="">GitHub</a>
+      <a href="https://github.com/KiaFIfe/World-Clocks" target="_blank"
+        >GitHub</a
+      >
     </footer>
     <script src="src\index.js"></script>
   </body>
