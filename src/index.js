@@ -33,9 +33,9 @@ timeT.innerHTML = `${moment()
 let dateLa = document.querySelector("#dateLa");
 let timeLa = document.querySelector("#timeLa");
 let amPmL = document.querySelector("#amPmL");
-dateLa.innerHTML = moment().tz("Asia/Tokyo").format("MMMM Do YYYY");
+dateLa.innerHTML = moment().tz("America/Los_Angeles").format("MMMM Do YYYY");
 timeLa.innerHTML = `${moment()
-  .tz("Asia/Tokyo")
+  .tz("America/Los_Angeles")
   .format("HH:MM:SS")} <small class="am-pm">${moment()
-  .tz("Asia/Tokyo")
+  .tz("America/Los_Angeles")
   .format("A")}`;
