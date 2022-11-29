@@ -11,57 +11,60 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="headding">World Clock</h1>
-      <p class="emoji">🕰️</p>
+      <div class="header">
+        <h1 class="headding">World Clock</h1>
+        <p class="emoji">🕰️</p>
+      </div>
       <div class="box">
         <select class="drop-box" name="drop-box" id="dropBox">
           <option value="sydney" id="sydney">Sydney</option>
           <option value="paris" id="paris">Paris</option>
           <option value="tokyo" id="tokyo">Tokyo</option>
+          <option value="los-angeles" id="losAngeles">Los angeles</option>
         </select>
       </div>
 
       <div class="city-box">
         <div class="left">
-          <h2 class="name">Los angeles</h2>
-          <div class="month">August 15th 2022</div>
+          <h2 class="name" id="nameLa">Los angeles</h2>
+          <div class="month" id="dateLa">August 15th 2022</div>
         </div>
-        <div class="time">
+        <div class="time" id="timeLa">
           1:48:15
-          <small class="am-pm">AM</small>
+          <small class="am-pm" id="amPmL">AM</small>
         </div>
       </div>
       <hr />
       <div class="city-box">
         <div class="left">
-          <h2 class="name">Sydney</h2>
-          <div class="month">August 15th 2022</div>
+          <h2 class="name" id="nameSydney">Sydney</h2>
+          <div class="month" id="dateSydney">August 15th 2022</div>
         </div>
-        <div class="time">
+        <div class="time" id="timeSydney">
           1:48:15
-          <small class="am-pm">AM</small>
+          <small class="am-pm" id="amPmS">AM</small>
         </div>
       </div>
       <hr />
       <div class="city-box">
         <div class="left">
-          <h2 class="name">Tokyo</h2>
-          <div class="month">August 15th 2022</div>
+          <h2 class="name" id="nameTokyo">Tokyo</h2>
+          <div class="month" id="dateTokyo">August 15th 2022</div>
         </div>
-        <div class="time">
+        <div class="time" id="timeTokyo">
           1:48:15
-          <small class="am-pm">AM</small>
+          <small class="am-pm" id="amPmT">AM</small>
         </div>
       </div>
       <hr />
       <div class="city-box">
         <div class="left">
-          <h2 class="name">Paris</h2>
-          <div class="month">August 15th 2022</div>
+          <h2 class="name" id="nameParis">Paris</h2>
+          <div class="month" id="dateParis">August 15th 2022</div>
         </div>
-        <div class="time">
+        <div class="time" id="timeParis">
           1:48:15
-          <small class="am-pm">AM</small>
+          <small class="am-pm" id="amPmP">AM</small>
         </div>
       </div>
     </div>
