@@ -54,7 +54,12 @@ function locationTimeZone(event) {
   <small class="am-pm">${locationdata.format("A")}</small>
   </div>
   </div>
-  </div>`;
+  </div>
+  <div class="button-link">
+        <button>
+          <a class="cities-button" href="https://subtle-syrniki-fac474.netlify.app/">Back to cities</a>
+        </button>
+      </div>`;
   if (event.target.value === "no") {
     selectTimeZoneElement.innerHTML = `<h2 class="select-c">Please select a city</h2>`;
   }
@@ -63,5 +68,4 @@ function locationTimeZone(event) {
 let tzSelect = document.querySelector("#dropBox");
 tzSelect.addEventListener("change", locationTimeZone);
 
-setInterval(locationTimeZone, 1000);
 setInterval(timeZone, 1000);
