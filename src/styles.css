@@ -16,8 +16,7 @@ h1 {
   color: #3d3854;
   margin-left: 15px;
   font-size: 38px;
-  padding-bottom: 40px;
-  display: flex;
+  display: inline;
 }
 footer {
   padding: 40px;
@@ -25,8 +24,10 @@ footer {
 }
 
 .emoji {
-  font-size: 80px;
+  font-size: 100px;
   margin: 0;
+  display: inline;
+  padding-left: 130px;
 }
 .container {
   background-color: white;
@@ -66,4 +67,7 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
+}
+.header{
+  padding-bottom: 40px;
 }
