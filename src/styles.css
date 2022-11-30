@@ -71,3 +71,11 @@ footer {
 .header{
   padding-bottom: 40px;
 }
+
+.select-c{
+  text-align: center;
+  font-size: 40px;
+  color: #2e2265;
+  padding: 15px;
+
+}

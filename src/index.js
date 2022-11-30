@@ -39,24 +39,29 @@ function timeZone() {
 function locationTimeZone(event) {
   let selectTimeZoneElement = document.querySelector("#box");
   let changeTimeZone = event.target.value;
+  if (changeTimeZone === "location") {
+    changeTimeZone = moment.tz.guess();
+  }
   let changeName = changeTimeZone.replace("_", " ").split("/")[1];
   let locationdata = moment().tz(changeTimeZone);
   selectTimeZoneElement.innerHTML = `
   <div class="city-box">
   <div class="left">
   <h2 class="name">${changeName}</h2>
-  <div class="month">${locationdata.format("MMM Do YYYY")}</div>
+  <div class="month">${locationdata.format("MMMM Do YYYY")}</div>
   </div>
   <div class="time"> ${locationdata.format("HH:MM:ss")}
   <small class="am-pm">${locationdata.format("A")}</small>
   </div>
   </div>
   </div>`;
+  if (event.target.value === "no") {
+    selectTimeZoneElement.innerHTML = `<h2 class="select-c">Please select a city</h2>`;
+  }
 }
 
 let tzSelect = document.querySelector("#dropBox");
 tzSelect.addEventListener("change", locationTimeZone);
-let box = document.querySelector("#box");
 
+setInterval(locationTimeZone, 1000);
 setInterval(timeZone, 1000);
-setInterval(locationTimeZone, 1000)
