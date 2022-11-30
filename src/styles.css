@@ -13,14 +13,35 @@ small {
   vertical-align: middle;
 }
 h1 {
-  color: #3d3854;
+  color: #2e2265;
   margin-left: 15px;
   font-size: 38px;
   display: inline;
 }
-footer {
+button {
+  font-weight: 700;
+  background-color: #51458a;
+  border-radius: 6px;
+  border-style: none;
+  padding: 15px 20px;
+  box-shadow: 4px 4px 8px #948cb9;
+  margin: 15px;
+}
+.button-link {
+  text-align: center;
+}
+
+.drop-option {
+  font-size: 20px;
+  color: #2e2265;
+}
+.link1 {
   padding: 40px;
   text-align: center;
+}
+.cities-button {
+  color: #f9f7fe;
+  text-decoration: none;
 }
 
 .emoji {
@@ -68,14 +89,13 @@ footer {
   justify-content: space-between;
   margin-top: 40px;
 }
-.header{
+.header {
   padding-bottom: 40px;
 }
 
-.select-c{
+.select-c {
   text-align: center;
   font-size: 40px;
   color: #2e2265;
   padding: 15px;
-
 }

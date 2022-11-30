@@ -17,14 +17,14 @@
       </div>
       <div class="box">
         <select class="drop-box" name="drop-box" id="dropBox">
-          <option value="no">Please select a city</option>
-          <option value="Europe/Paris" id="paris">Paris</option>
-          <option value="Australia/Sydney" id="sydney">Sydney</option>
-          <option value="Asia/Tokyo" id="tokyo">Tokyo</option>
-          <option value="America/Los_Angeles" id="losAngeles">
+          <option class="drop-option" value="no">Please select a city</option>
+          <option class="drop-option" value="Europe/Paris" id="paris">Paris</option>
+          <option class="drop-option" value="Australia/Sydney" id="sydney">Sydney</option>
+          <option class="drop-option" value="Asia/Tokyo" id="tokyo">Tokyo</option>
+          <option class="drop-option" value="America/Los_Angeles" id="losAngeles">
             Los angeles
           </option>
-          <option value="location" id="location">My location</option>
+          <option class="drop-option" value="location" id="location">My location</option>
         </select>
       </div>
       <div id="box">
@@ -68,10 +68,14 @@
           </div>
         </div>
       </div>
-      <a href="https://subtle-syrniki-fac474.netlify.app">All cities</a>
+      <div class="button-link">
+        <button>
+          <a class="cities-button" href="https://subtle-syrniki-fac474.netlify.app/">Back to cities</a>
+        </button>
+      </div>
     </div>
 
-    <footer>
+    <footer class="link1">
       This project was make by Likia Fife and is open sourced on
       <a href="https://github.com/KiaFIfe/World-Clocks" target="_blank"
         >GitHub</a
