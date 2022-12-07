@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.39/moment-timezone-with-data-10-year-range.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Noto+Serif+Khojki:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/styles.css" />
     <title>World Clocks</title>
   </head>
@@ -18,13 +24,25 @@
       <div class="box">
         <select class="drop-box" name="drop-box" id="dropBox">
           <option class="drop-option" value="no">Please select a city</option>
-          <option class="drop-option" value="Europe/Paris" id="paris">Paris</option>
-          <option class="drop-option" value="Australia/Sydney" id="sydney">Sydney</option>
-          <option class="drop-option" value="Asia/Tokyo" id="tokyo">Tokyo</option>
-          <option class="drop-option" value="America/Los_Angeles" id="losAngeles">
+          <option class="drop-option" value="Europe/Paris" id="paris">
+            Paris
+          </option>
+          <option class="drop-option" value="Australia/Sydney" id="sydney">
+            Sydney
+          </option>
+          <option class="drop-option" value="Asia/Tokyo" id="tokyo">
+            Tokyo
+          </option>
+          <option
+            class="drop-option"
+            value="America/Los_Angeles"
+            id="losAngeles"
+          >
             Los angeles
           </option>
-          <option class="drop-option" value="location" id="location">My location</option>
+          <option class="drop-option" value="location" id="location">
+            My location
+          </option>
         </select>
       </div>
       <div id="box">
