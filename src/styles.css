@@ -1,10 +1,6 @@
 html {
   height: 120%;
 }
-body {
-  background: linear-gradient(-20deg, #0c2758 10%, #03426d 60%, #16015c 90%);
-  font-famimily: Noto Serif Khojki, sans-serif;
-}
 hr {
   border-top: 1px dashed rgb(189, 188, 188);
   width: 97%;
@@ -12,13 +8,12 @@ hr {
 small {
   font-weight: 800;
   color: #2e2265;
-  font-size: 16px;
   vertical-align: middle;
 }
 h1 {
   color: #2e2265;
   margin-left: 15px;
-  font-size: 60px;
+  font-size: 30px;
   display: inline;
 }
 button {
@@ -35,7 +30,6 @@ button {
 }
 
 .drop-option {
-  font-size: 20px;
   color: #2e2265;
 }
 .link1 {
@@ -48,15 +42,15 @@ button {
 }
 
 .emoji {
-  font-size: 90px;
+  font-size: 50px;
   margin: 0;
   display: inline;
   padding-left: 40px;
 }
 .container {
-  background-color: rgb(230, 242, 254);
+  /* background-color: rgb(230, 242, 254); */
   opacity: 0.7;
-  width: 520px;
+  width: 320px;
   height: fit-content;
   display: block;
   margin: 0 auto;
@@ -65,7 +59,7 @@ button {
   border-radius: 10px;
 }
 .drop-box {
-  background-color: rgb(230, 242, 254);
+  background-color: rgb(255, 255, 255);
   width: 100%;
   font-size: 16px;
   padding: 12px;
@@ -75,24 +69,24 @@ button {
 }
 .name {
   font-weight: 500;
-  font-size: 45px;
+  font-size: 25px;
   color: #2e2265;
   margin: 0;
   padding-bottom: 20px;
 }
 .month {
   opacity: 0.6;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
 }
 .time {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 800;
   color: #2e2265;
 }
 .city-box {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 15px;
 }
 .header {
   padding-bottom: 40px;
